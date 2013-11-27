@@ -1,6 +1,6 @@
 <?php
 
-$file = $argv[1] ?: "/Users/nvolgas/Downloads/times.csv";
+$file = $argv[1] ?: "times.csv";
 
 if (($handle = fopen($file, 'r')) !== false) 
 {
